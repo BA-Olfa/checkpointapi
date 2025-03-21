@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* styles tableau utilisateur  */
+.usertable {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.usertable-center {
+margin: 0 auto; /* Centre horizontalement */
+  width: 80%; /* Largeur du tableau */
+}
+.usertable thead th {
+  background-color: green;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.usertable tbody tr:hover {
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+.usertable tbody td {
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.usertable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
